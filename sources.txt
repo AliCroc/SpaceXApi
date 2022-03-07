@@ -1,0 +1,14 @@
+Cyborg bootstrap template with elements:
+https://bootswatch.com/cyborg/
+
+Function components
+https://www.robinwieruch.de/react-function-component
+
+React Redux
+https://react-redux.js.org/
+
+Simple react-query example
+https://codesandbox.io/s/github/tannerlinsley/react-query/tree/master/examples/basic-graphql-request?from-embed=&file=/src/index.js:265-312
+
+5 Ways to fetch data from graphql
+https://www.freecodecamp.org/news/5-ways-to-fetch-data-react-graphql/

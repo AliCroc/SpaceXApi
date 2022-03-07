@@ -1,0 +1,64 @@
+.searchBar {
+    width: 20vmin;
+}
+
+.launchesContainer {
+    outline: 1px solid #fff;
+    width: 80vmin;
+    min-height: 10vmin;
+    font-size: 1vw;
+}
+
+.launchBanner {
+    width: 100%;
+    height: 10vmin;
+    outline: 0.1vmin solid #666;
+}
+
+.launchBanner > .grid {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:"year patch"
+                        "title patch"
+                        ". patch"
+                        ". patch";
+    justify-items: left;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.launchBanner > .grid > div:not(.patch) {
+    margin-left:10.2%;
+}
+
+.launchBanner > .grid > .title {
+    grid-area: title;
+}
+
+.launchBanner > .grid > .year {
+    grid-area: year;
+}
+
+.launchBanner > .grid > .patch {
+    display: flex;
+    grid-area: patch;
+    margin-right: auto;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+}
+
+.launchBanner > .grid > .title.success {
+    color: rgb(99, 255, 47);
+}
+
+.launchBanner > .grid > .title.failed {
+    color: rgb(255, 68, 47);
+}
+
+.launchBanner > .grid > .patch > img {
+    height: 9vmin;
+}
